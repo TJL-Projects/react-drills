@@ -1,24 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import Image from './components/Image'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Image  url={"https://pizzabottle.com/wp-content/uploads/2017/05/Screen_Shot_2017-05-03_at_2.56.29_PM_tvcewo-1-758x398.jpg"}/>
     </div>
   );
 }
