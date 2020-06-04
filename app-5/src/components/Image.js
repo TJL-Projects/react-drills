@@ -11,7 +11,7 @@ class Image extends Component {
     render(){
         return(
             <div>
-                <img src={this.props.url} />
+                <img src={this.props.url} alt='photo' />
             </div>
         )
     }
